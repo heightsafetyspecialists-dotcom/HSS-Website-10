@@ -56,7 +56,7 @@
             <div class="flex justify-between h-24 items-center">
                 <!-- Brand Logo -->
                 <a href="#" class="flex items-center">
-                    <img src="images/HSS New logo 2026.png" alt="HSS Height Safety Specialists Logo" class="h-16 w-auto object-contain py-1">
+                    <img src="HSS New logo 2026.png" alt="HSS Height Safety Specialists Logo" class="h-16 w-auto object-contain py-1">
                 </a>
                 
                 <div class="hidden md:flex items-center space-x-8 text-sm font-semibold">
@@ -85,7 +85,7 @@
                     Commercial Cleaning, <span class="text-safety-yellow">Roof Painting & Rope Access</span>
                 </h1>
                 <p class="text-zinc-300 text-lg mb-8 leading-relaxed max-w-2xl">
-                    Christchurch and New Zealand’s premier specialists in roof spraying & coating, commercial building maintenance, high-rise window cleaning, abseil rope access, specialist sealants, and EWP height solutions.
+                    Christchurch and New Zealand’s premier specialists in roof spraying & coating, commercial building maintenance, high-rise window cleaning, abseil rope access, specialist sealants, and industrial access solutions.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
                     <a href="#contact" class="bg-safety-yellow text-black text-center font-black px-8 py-4 rounded hover:bg-safety-yellow-hover transition-colors uppercase tracking-wide">
@@ -127,6 +127,57 @@
             </div>
         </div>
     </header>
+
+    <!-- Featured Work Photos -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
+        <div class="text-center mb-10">
+            <h2 class="text-3xl sm:text-4xl font-black text-white uppercase tracking-tight mb-4">Featured Projects</h2>
+            <div class="w-24 h-1.5 bg-safety-yellow mx-auto mb-4"></div>
+            <p class="text-zinc-400 max-w-2xl mx-auto">A snapshot of the specialist height safety, industrial access, and façade work we complete across New Zealand and overseas projects.</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6">
+            <div class="group cursor-pointer overflow-hidden rounded-lg border border-industrial-border bg-industrial-card" onclick="openModal('Wind Turbine 2014.jpg', 'Wind Turbine Maintenance')">
+                <div class="relative h-72 overflow-hidden">
+                    <img src="Wind Turbine 2014.jpg" alt="Wind Turbine Maintenance" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                </div>
+                <div class="p-4">
+                    <h3 class="text-lg font-bold text-white uppercase">Wind Turbine</h3>
+                    <p class="text-zinc-400 text-sm mt-1">Specialist access and inspection works at height.</p>
+                </div>
+            </div>
+
+            <div class="group cursor-pointer overflow-hidden rounded-lg border border-industrial-border bg-industrial-card" onclick="openModal('Hard to reach area.png', 'Hard-to-Reach Access')">
+                <div class="relative h-72 overflow-hidden">
+                    <img src="Hard to reach area.png" alt="Hard to Reach Access" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                </div>
+                <div class="p-4">
+                    <h3 class="text-lg font-bold text-white uppercase">Challenging Access</h3>
+                    <p class="text-zinc-400 text-sm mt-1">Rope access for difficult structural maintenance zones.</p>
+                </div>
+            </div>
+
+            <div class="group cursor-pointer overflow-hidden rounded-lg border border-industrial-border bg-industrial-card" onclick="openModal('Sealant job photos (1).png', 'Sealant Installation')">
+                <div class="relative h-72 overflow-hidden">
+                    <img src="Sealant job photos (1).png" alt="Sealant job photo" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                </div>
+                <div class="p-4">
+                    <h3 class="text-lg font-bold text-white uppercase">Facade Sealants</h3>
+                    <p class="text-zinc-400 text-sm mt-1">Panel sealing and weatherproofing for commercial facades.</p>
+                </div>
+            </div>
+
+            <div class="group cursor-pointer overflow-hidden rounded-lg border border-industrial-border bg-industrial-card" onclick="openModal('Auckland bridge road 2021.jpg', 'Bridge Maintenance')">
+                <div class="relative h-72 overflow-hidden">
+                    <img src="Auckland bridge road 2021.jpg" alt="Bridge maintenance photo" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                </div>
+                <div class="p-4">
+                    <h3 class="text-lg font-bold text-white uppercase">Bridge Works</h3>
+                    <p class="text-zinc-400 text-sm mt-1">High-access maintenance across critical infrastructure.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Services Section -->
     <section id="services" class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
@@ -203,10 +254,9 @@
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
-            <!-- Sealant Job Photo 1 -->
-            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden flex flex-col group cursor-pointer" onclick="openModal('images/Sealant job photos (1).jpg', 'High-Rise Alucobond Sealant Work')">
+            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden flex flex-col group cursor-pointer" onclick="openModal('Sealant job photos (1).png', 'High-Rise Sealant Work')">
                 <div class="relative h-64 overflow-hidden bg-black">
-                    <img src="images/Sealant job photos (1).jpg" alt="Alucobond Panel Sealant Work" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    <img src="Sealant job photos (1).png" alt="Alucobond Panel Sealant Work" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
                     <span class="absolute top-3 left-3 bg-black/80 text-safety-yellow text-xs font-bold px-2.5 py-1 rounded border border-safety-yellow/30 uppercase">Sealant Work #1</span>
                 </div>
                 <div class="p-5 flex-1 flex flex-col justify-between">
@@ -217,10 +267,9 @@
                 </div>
             </div>
 
-            <!-- Sealant Job Photo 2 -->
-            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden flex flex-col group cursor-pointer" onclick="openModal('images/Sealant job photos (2).jpg', 'Masked Facade Expansion Joint Prep')">
+            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden flex flex-col group cursor-pointer" onclick="openModal('Sealant job photos (2).png', 'Masked Facade Prep')">
                 <div class="relative h-64 overflow-hidden bg-black">
-                    <img src="images/Sealant job photos (2).jpg" alt="Expansion Joint Masking Prep" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    <img src="Sealant job photos (2).png" alt="Expansion Joint Masking Prep" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
                     <span class="absolute top-3 left-3 bg-black/80 text-safety-yellow text-xs font-bold px-2.5 py-1 rounded border border-safety-yellow/30 uppercase">Sealant Work #2</span>
                 </div>
                 <div class="p-5 flex-1 flex flex-col justify-between">
@@ -231,10 +280,9 @@
                 </div>
             </div>
 
-            <!-- Sealant Job Photo 3 -->
-            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden flex flex-col group cursor-pointer" onclick="openModal('images/Sealant job photos (3).jpg', 'Close-Up Alucobond Tape Line Prep')">
+            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden flex flex-col group cursor-pointer" onclick="openModal('Sealant job photos (3).png', 'Close-Up Detail Work')">
                 <div class="relative h-64 overflow-hidden bg-black">
-                    <img src="images/Sealant job photos (3).jpg" alt="Detail Panel Joint Tape Line" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    <img src="Sealant job photos (3).png" alt="Detail Panel Joint Tape Line" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
                     <span class="absolute top-3 left-3 bg-black/80 text-safety-yellow text-xs font-bold px-2.5 py-1 rounded border border-safety-yellow/30 uppercase">Sealant Work #3</span>
                 </div>
                 <div class="p-5 flex-1 flex flex-col justify-between">
@@ -245,10 +293,9 @@
                 </div>
             </div>
 
-            <!-- AHB Zane -->
-            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden flex flex-col group cursor-pointer" onclick="openModal('images/AHB Zane.jpg', 'Auckland Harbour Bridge Maintenance')">
+            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden flex flex-col group cursor-pointer" onclick="openModal('Auckland bridge road 2021.jpg', 'Auckland Harbour Bridge Maintenance')">
                 <div class="relative h-64 overflow-hidden bg-black">
-                    <img src="images/AHB Zane.jpg" alt="Auckland Harbour Bridge Maintenance" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    <img src="Auckland bridge road 2021.jpg" alt="Auckland Harbour Bridge Maintenance" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
                     <span class="absolute top-3 left-3 bg-black/80 text-safety-yellow text-xs font-bold px-2.5 py-1 rounded border border-safety-yellow/30 uppercase">Auckland Harbour Bridge</span>
                 </div>
                 <div class="p-5 flex-1 flex flex-col justify-between">
@@ -259,24 +306,9 @@
                 </div>
             </div>
 
-            <!-- Auckland bridge road 2021 -->
-            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden flex flex-col group cursor-pointer" onclick="openModal('images/Auckland bridge road 2021.jpg', 'Auckland Bridge Night Operations')">
+            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden flex flex-col group cursor-pointer" onclick="openModal('Auckland zoo 2020.jpg', 'Auckland Zoo Project')">
                 <div class="relative h-64 overflow-hidden bg-black">
-                    <img src="images/Auckland bridge road 2021.jpg" alt="Auckland Bridge Night Ops" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
-                    <span class="absolute top-3 left-3 bg-black/80 text-safety-yellow text-xs font-bold px-2.5 py-1 rounded border border-safety-yellow/30 uppercase">Night Operations</span>
-                </div>
-                <div class="p-5 flex-1 flex flex-col justify-between">
-                    <div>
-                        <h4 class="text-white font-bold text-base mb-1">Infrastructure Night Maintenance</h4>
-                        <p class="text-zinc-400 text-xs">Height safety and traffic management coordination overlooking Auckland city skyline.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Auckland zoo 2020 -->
-            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden flex flex-col group cursor-pointer" onclick="openModal('images/Auckland zoo 2020.jpg', 'Auckland Zoo High-Access Project')">
-                <div class="relative h-64 overflow-hidden bg-black">
-                    <img src="images/Auckland zoo 2020.jpg" alt="Auckland Zoo Project" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    <img src="Auckland zoo 2020.jpg" alt="Auckland Zoo Project" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
                     <span class="absolute top-3 left-3 bg-black/80 text-safety-yellow text-xs font-bold px-2.5 py-1 rounded border border-safety-yellow/30 uppercase">Specialist Access</span>
                 </div>
                 <div class="p-5 flex-1 flex flex-col justify-between">
@@ -287,10 +319,9 @@
                 </div>
             </div>
 
-            <!-- Austraila stadium 2016 -->
-            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden flex flex-col group cursor-pointer" onclick="openModal('images/Austraila stadium 2016.jpg', 'Australia Stadium Roof Access')">
+            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden flex flex-col group cursor-pointer" onclick="openModal('Austraila stadium 2016.jpg', 'Stadium Roof & Membrane')">
                 <div class="relative h-64 overflow-hidden bg-black">
-                    <img src="images/Austraila stadium 2016.jpg" alt="Australia Stadium" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    <img src="Austraila stadium 2016.jpg" alt="Australia Stadium" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
                     <span class="absolute top-3 left-3 bg-black/80 text-safety-yellow text-xs font-bold px-2.5 py-1 rounded border border-safety-yellow/30 uppercase">Roof & Membrane</span>
                 </div>
                 <div class="p-5 flex-1 flex flex-col justify-between">
@@ -301,10 +332,9 @@
                 </div>
             </div>
 
-            <!-- Australia training day 2016 -->
-            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden flex flex-col group cursor-pointer" onclick="openModal('images/Australia training day 2016.jpg', 'IRATA Training & Rescue')">
+            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden flex flex-col group cursor-pointer" onclick="openModal('Australia training day 2016.jpg', 'IRATA Rope Access & Rescue')">
                 <div class="relative h-64 overflow-hidden bg-black">
-                    <img src="images/Australia training day 2016.jpg" alt="IRATA Training" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    <img src="Australia training day 2016.jpg" alt="IRATA Training" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
                     <span class="absolute top-3 left-3 bg-black/80 text-safety-yellow text-xs font-bold px-2.5 py-1 rounded border border-safety-yellow/30 uppercase">Safety & Rescue</span>
                 </div>
                 <div class="p-5 flex-1 flex flex-col justify-between">
@@ -315,10 +345,9 @@
                 </div>
             </div>
 
-            <!-- Australia training day 2016 2 -->
-            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden flex flex-col group cursor-pointer" onclick="openModal('images/Australia training day 2016 2.jpg', 'Advanced Safety Protocols')">
+            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden flex flex-col group cursor-pointer" onclick="openModal('Australia training day 2016 2.jpg', 'Advanced Rescue Simulation')">
                 <div class="relative h-64 overflow-hidden bg-black">
-                    <img src="images/Australia training day 2016 2.jpg" alt="Advanced Safety" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    <img src="Australia training day 2016 2.jpg" alt="Advanced Safety" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
                     <span class="absolute top-3 left-3 bg-black/80 text-safety-yellow text-xs font-bold px-2.5 py-1 rounded border border-safety-yellow/30 uppercase">Compliance Drill</span>
                 </div>
                 <div class="p-5 flex-1 flex flex-col justify-between">
@@ -329,10 +358,9 @@
                 </div>
             </div>
 
-            <!-- Behive 2018 -->
-            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden flex flex-col group cursor-pointer" onclick="openModal('images/Behive 2018.jpg', 'Wellington Beehive Maintenance')">
+            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden flex flex-col group cursor-pointer" onclick="openModal('Behive 2018.jpg', 'Wellington Beehive Maintenance')">
                 <div class="relative h-64 overflow-hidden bg-black">
-                    <img src="images/Behive 2018.jpg" alt="Wellington Beehive" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    <img src="Behive 2018.jpg" alt="Wellington Beehive" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
                     <span class="absolute top-3 left-3 bg-black/80 text-safety-yellow text-xs font-bold px-2.5 py-1 rounded border border-safety-yellow/30 uppercase">Government Facade</span>
                 </div>
                 <div class="p-5 flex-1 flex flex-col justify-between">
@@ -343,10 +371,9 @@
                 </div>
             </div>
 
-            <!-- Hard to reach area_2 -->
-            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden flex flex-col group cursor-pointer" onclick="openModal('images/Hard to reach area_2.jpg', 'Hard-to-Reach Structural Work')">
+            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden flex flex-col group cursor-pointer" onclick="openModal('Hard to reach area.png', 'Hard-to-Reach Structural Access')">
                 <div class="relative h-64 overflow-hidden bg-black">
-                    <img src="images/Hard to reach area_2.jpg" alt="Hard to Reach" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    <img src="Hard to reach area.png" alt="Hard to Reach" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
                     <span class="absolute top-3 left-3 bg-black/80 text-safety-yellow text-xs font-bold px-2.5 py-1 rounded border border-safety-yellow/30 uppercase">Abseil Access</span>
                 </div>
                 <div class="p-5 flex-1 flex flex-col justify-between">
@@ -357,10 +384,9 @@
                 </div>
             </div>
 
-            <!-- HMS Warrior (1)_2 -->
-            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden flex flex-col group cursor-pointer" onclick="openModal('images/HMS Warrior (1)_2.jpg', 'HMS Warrior Tall-Mast Rigging')">
+            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden flex flex-col group cursor-pointer" onclick="openModal('HMS Warrior (1).png', 'HMS Warrior Tall-Mast Restoration')">
                 <div class="relative h-64 overflow-hidden bg-black">
-                    <img src="images/HMS Warrior (1)_2.jpg" alt="HMS Warrior Mast" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    <img src="HMS Warrior (1).png" alt="HMS Warrior Mast" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
                     <span class="absolute top-3 left-3 bg-black/80 text-safety-yellow text-xs font-bold px-2.5 py-1 rounded border border-safety-yellow/30 uppercase flex items-center gap-1">
                         <i class="fa-solid fa-anchor"></i> HMS Warrior
                     </span>
@@ -373,10 +399,9 @@
                 </div>
             </div>
 
-            <!-- HMS Warrior (2) -->
-            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden flex flex-col group cursor-pointer" onclick="openModal('images/HMS Warrior (2).jpg', 'HMS Warrior Museum Ship Overview')">
+            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden flex flex-col group cursor-pointer" onclick="openModal('HMS Warrior (2).png', 'Historic Vessel Preservation')">
                 <div class="relative h-64 overflow-hidden bg-black">
-                    <img src="images/HMS Warrior (2).jpg" alt="HMS Warrior Ship" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    <img src="HMS Warrior (2).png" alt="HMS Warrior Ship" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
                     <span class="absolute top-3 left-3 bg-black/80 text-safety-yellow text-xs font-bold px-2.5 py-1 rounded border border-safety-yellow/30 uppercase flex items-center gap-1">
                         <i class="fa-solid fa-anchor"></i> Historic Vessel
                     </span>
@@ -481,7 +506,7 @@
 
                 <div>
                     <label class="block text-xs font-bold text-zinc-300 uppercase mb-2">Site Location & Project Scope *</label>
-                    <textarea rows="4" required class="w-full bg-zinc-900 border border-industrial-border rounded px-4 py-3 text-white focus:outline-none focus:border-safety-yellow text-sm" placeholder="Please specify roof type, building height, panel joint scope, access constraints, or timing..."></textarea>
+                    <textarea rows="4" required class="w-full bg-zinc-900 border border-industrial-border rounded px-4 py-3 text-white focus:outline-none focus:border-safety-yellow text-sm" placeholder="Tell us where the job is and what needs doing..."></textarea>
                 </div>
 
                 <button type="submit" class="w-full bg-safety-yellow text-black font-black uppercase py-4 rounded hover:bg-safety-yellow-hover transition-colors tracking-wide">

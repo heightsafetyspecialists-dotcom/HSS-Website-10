@@ -85,7 +85,8 @@
                     Commercial Cleaning, <span class="text-safety-yellow">Roof Painting & Rope Access</span>
                 </h1>
                 <p class="text-zinc-300 text-lg mb-8 leading-relaxed max-w-2xl">
-                    Christchurch and New Zealand’s premier specialists in roof spraying & coating, commercial building maintenance, high-rise window cleaning, abseil rope access, specialist sealants, and industrial access solutions.                  </p>
+                    Christchurch and New Zealand’s premier specialists in roof spraying & coating, commercial building maintenance, high-rise window cleaning, abseil rope access, specialist sealants, and industrial access solutions.
+                </p>
                 <div class="flex flex-col sm:flex-row gap-4">
                     <a href="#contact" class="bg-safety-yellow text-black text-center font-black px-8 py-4 rounded hover:bg-safety-yellow-hover transition-colors uppercase tracking-wide">
                         Request Site Inspection
@@ -468,6 +469,10 @@
                 <p class="text-zinc-400 text-sm">Serving Christchurch, Canterbury, and nationwide New Zealand.</p>
             </div>
 
+            <div id="successMessage" class="hidden mb-6 rounded border border-emerald-500 bg-emerald-500/10 px-4 py-3 text-sm text-emerald-300">
+                Your quote request has been prepared in your email app for <strong>craig@heightsafety.nz</strong>. Please send the email to complete your request.
+            </div>
+
             <form id="quoteForm" action="mailto:craig@heightsafety.nz" method="post" enctype="text/plain" class="space-y-6">
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <div>
@@ -560,6 +565,10 @@
                 'Primary Service Requested: ' + service + '\n\n' +
                 'Site Location & Project Scope:\n' + project
             );
+
+            const successMessage = document.getElementById('successMessage');
+            successMessage.classList.remove('hidden');
+            form.reset();
 
             window.location.href = 'mailto:craig@heightsafety.nz?subject=' + subject + '&body=' + body;
         });

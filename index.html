@@ -8,22 +8,15 @@
   <title>Height Safety Specialists NZ | Commercial Maintenance, Roof Painting & Rope Access</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <script>
-    tailwind.config = { theme: { extend: { colors: { 'safety-yellow': '#FFC107', 'safety-yellow-hover': '#FFD54F', 'industrial-dark': '#0F0F0F', 'industrial-card': '#18181B', 'industrial-border': '#27272A' } } } };
-  </script>
+  <script>tailwind.config={theme:{extend:{colors:{'safety-yellow':'#FFC107','safety-yellow-hover':'#FFD54F','industrial-dark':'#0F0F0F','industrial-card':'#18181B','industrial-border':'#27272A'}}}};</script>
   <style>
-    body { background:#0F0F0F; color:#E4E4E7; font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif; }
-    .yellow-accent-border { border-left:4px solid #FFC107; }
-    .yellow-accent-top { border-top:4px solid #FFC107; }
-    .gallery-card { background:#18181B; border:1px solid #27272A; border-radius:.25rem; overflow:hidden; display:flex; flex-direction:column; cursor:pointer; }
-    .gallery-image { width:100%; height:16rem; object-fit:cover; transition:transform .3s; }
-    .gallery-card:hover .gallery-image { transform:scale(1.05); }
-    .gallery-copy { padding:1.25rem; }
-    .gallery-copy h3 { color:#fff; font-weight:700; font-size:1rem; margin-bottom:.25rem; }
-    .gallery-copy p { color:#a1a1aa; font-size:.75rem; }
-    .form-label { display:block; font-size:.75rem; font-weight:700; color:#d4d4d8; text-transform:uppercase; margin-bottom:.5rem; }
-    .form-input { width:100%; background:#18181B; border:1px solid #27272A; border-radius:.25rem; padding:.75rem 1rem; color:#fff; font-size:.875rem; }
-    .form-input:focus { outline:none; border-color:#FFC107; }
+    body{background:#0F0F0F;color:#E4E4E7;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif}
+    .yellow-accent-border{border-left:4px solid #FFC107}.yellow-accent-top{border-top:4px solid #FFC107}
+    .gallery-card{background:#18181B;border:1px solid #27272A;border-radius:.25rem;overflow:hidden;display:flex;flex-direction:column;cursor:pointer}
+    .gallery-image{width:100%;height:16rem;object-fit:cover;transition:transform .3s}.gallery-card:hover .gallery-image{transform:scale(1.05)}
+    .gallery-copy{padding:1.25rem}.gallery-copy h3{color:#fff;font-weight:700;font-size:1rem;margin-bottom:.25rem}.gallery-copy p{color:#a1a1aa;font-size:.75rem}
+    .form-label{display:block;font-size:.75rem;font-weight:700;color:#d4d4d8;text-transform:uppercase;margin-bottom:.5rem}
+    .form-input{width:100%;background:#18181B;border:1px solid #27272A;border-radius:.25rem;padding:.75rem 1rem;color:#fff;font-size:.875rem}.form-input:focus{outline:none;border-color:#FFC107}
   </style>
 </head>
 <body class="min-h-screen flex flex-col">
@@ -40,7 +33,7 @@
     <article class="bg-industrial-card p-6 rounded border border-industrial-border yellow-accent-border"><i class="fa-solid fa-paint-roller text-4xl text-safety-yellow mb-4"></i><h3 class="text-xl font-bold text-white mb-3 uppercase">Roof Painting & Spraying</h3><ul class="text-zinc-400 text-sm space-y-2"><li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-yellow text-xs"></i>Commercial and residential roof spraying</li><li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-yellow text-xs"></i>Protective membrane and heat-reflective coatings</li><li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-yellow text-xs"></i>Rust treatment and roof restoration</li></ul></article>
     <article class="bg-industrial-card p-6 rounded border border-industrial-border yellow-accent-border"><i class="fa-solid fa-shower text-4xl text-safety-yellow mb-4"></i><h3 class="text-xl font-bold text-white mb-3 uppercase">Commercial Cleaning</h3><ul class="text-zinc-400 text-sm space-y-2"><li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-yellow text-xs"></i>Pre-paint building washdowns</li><li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-yellow text-xs"></i>High-pressure exterior building cleaning</li><li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-yellow text-xs"></i>Facade and surface decontamination</li></ul></article>
     <article class="bg-industrial-card p-6 rounded border border-industrial-border yellow-accent-border"><i class="fa-solid fa-window-maximize text-4xl text-safety-yellow mb-4"></i><h3 class="text-xl font-bold text-white mb-3 uppercase">Window Cleaning</h3><ul class="text-zinc-400 text-sm space-y-2"><li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-yellow text-xs"></i>High-rise commercial glass cleaning</li><li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-yellow text-xs"></i>Exterior window maintenance by rope access</li><li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-yellow text-xs"></i>Certified elevated work platform access</li></ul></article>
-    <article class="bg-industrial-card p-6 rounded border border-industrial-border yellow-accent-border"><img src="HSS New logo 2026.png" alt="Height Safety Specialists abseiler logo" class="w-12 h-12 object-contain mb-4"><h3 class="text-xl font-bold text-white mb-3 uppercase">Rope Access Maintenance</h3><ul class="text-zinc-400 text-sm space-y-2"><li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-yellow text-xs"></i>Industrial abseiling for hard-to-reach structures</li><li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-yellow text-xs"></i>High-level structural maintenance</li><li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-yellow text-xs"></i>Access solutions without costly scaffolding</li></ul></article>
+    <article class="bg-industrial-card p-6 rounded border border-industrial-border yellow-accent-border"><svg class="w-10 h-10 text-safety-yellow mb-4" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Carabiner"><path d="M30 5h5v11h-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M30 9h-5a15 15 0 0 0 0 30h7a15 15 0 0 0 0-30h-2" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="m30 16 6-5" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg><h3 class="text-xl font-bold text-white mb-3 uppercase">Rope Access Maintenance</h3><ul class="text-zinc-400 text-sm space-y-2"><li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-yellow text-xs"></i>Industrial abseiling for hard-to-reach structures</li><li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-yellow text-xs"></i>High-level structural maintenance</li><li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-yellow text-xs"></i>Access solutions without costly scaffolding</li></ul></article>
     <article class="bg-industrial-card p-6 rounded border border-industrial-border yellow-accent-border"><i class="fa-solid fa-fill-drip text-4xl text-safety-yellow mb-4"></i><h3 class="text-xl font-bold text-white mb-3 uppercase">Specialist Sealant Work</h3><ul class="text-zinc-400 text-sm space-y-2"><li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-yellow text-xs"></i>Expansion joint sealing</li><li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-yellow text-xs"></i>Alucobond and alley panel sealants</li><li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-yellow text-xs"></i>Structural facade weatherproofing</li></ul></article>
     <article class="bg-industrial-card p-6 rounded border border-industrial-border yellow-accent-border"><i class="fa-solid fa-anchor text-4xl text-safety-yellow mb-4"></i><h3 class="text-xl font-bold text-white mb-3 uppercase">Anchor Certification & Heights</h3><ul class="text-zinc-400 text-sm space-y-2"><li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-yellow text-xs"></i>12-monthly anchor testing and certification</li><li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-yellow text-xs"></i>Horizontal lifeline safety testing</li><li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-yellow text-xs"></i>Rooftop anchor point inspections</li></ul></article>
   </div></section>
@@ -68,8 +61,8 @@
   </div></section>
   <footer class="bg-safety-yellow text-black py-8 px-4 sm:px-6 lg:px-8 border-t-4 border-black mt-auto"><div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4 text-center sm:text-left"><div><span class="font-black text-lg uppercase block">Height Safety Specialists NZ</span><span class="text-xs font-bold text-zinc-900">Christchurch, NZ • Commercial Cleaning, Roof Spraying & Specialist Sealants</span></div><div class="text-xs font-bold"><p>&copy; 2026 Height Safety Specialists NZ. All Rights Reserved.</p></div></div></footer>
   <script>
-    function openModal(imgSrc,title){document.getElementById('modalImg').src=imgSrc;document.getElementById('modalTitle').textContent=title;const modal=document.getElementById('imageModal');modal.classList.remove('hidden');modal.classList.add('flex');}
-    function closeModal(){const modal=document.getElementById('imageModal');modal.classList.add('hidden');modal.classList.remove('flex');}
+    function openModal(imgSrc,title){document.getElementById('modalImg').src=imgSrc;document.getElementById('modalTitle').textContent=title;const modal=document.getElementById('imageModal');modal.classList.remove('hidden');modal.classList.add('flex')}
+    function closeModal(){const modal=document.getElementById('imageModal');modal.classList.add('hidden');modal.classList.remove('flex')}
   </script>
 </body>
 </html>
